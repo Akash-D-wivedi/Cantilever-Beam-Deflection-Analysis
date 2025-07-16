@@ -1,5 +1,4 @@
-# Cantilever-Beam-Deflection-Analysis
-Cantilever-Beam-Deflection-Analysis-using-ANSYS
+# Cantilever Beam Deflection Analysis
 
 All three models are built **inside one ANSYS Workbench project** to keep material data, loading and meshing options identical, allowing an apples-to-apples comparison.
 
@@ -17,7 +16,6 @@ All three models are built **inside one ANSYS Workbench project** to keep materi
    * Total deformation  
    * Maximum principal & von Mises (equivalent) stress  
    * First **10** natural frequencies (modal analysis)  
-4. **Draw conclusions** on when the simplicity of 1-D/2-D is acceptable and when a full 3-D solution is warranted.
 
 ---
 
@@ -46,8 +44,6 @@ Screenshots of the boundary-condition panels are included in **/screenshots** fo
    * Request first ten undamped natural frequencies.  
    * Compare bending-mode shapes between models.
 
-Key Workbench branches are already prepared in `beam1d2d3d.wbpj`; simply **Refresh > Solve** each system.
-
 ---
 
 ## 4. Results at a Glance*
@@ -57,12 +53,6 @@ Key Workbench branches are already prepared in `beam1d2d3d.wbpj`; simply **Refre
 | Max deflection (m) | 1.00 × 10⁻³ | 1.25 × 10⁻³ | 1.71 × 10⁻⁶† |
 | Max principal stress (Pa) | 4.19 × 10⁶ | 1.24 × 10⁷ | 1.24 × 10⁷ |
 | First bending freq. (Hz) | f₁,₁D | f₁,₂D | f₁,₃D |
-
-\* Exact values depend on mesh density; full tables are under **/results**.  
-† 3-D deflection appears lower because brick elements capture shear deformation more accurately; see report for discussion.
-
-
-Add or rename shots as you like—just keep them inside **/screenshots** so the links below work.
 
 ---
 
@@ -87,4 +77,4 @@ All results fall within engineering expectations for a prismatic cantilever.
 
 ## 7 · License  
 
-MIT — feel free to reuse or adapt for coursework, tutorials or personal study.
+MIT
