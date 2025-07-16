@@ -1,5 +1,4 @@
-# Cantilever-Beam-Deflection-Analysis
-Cantilever-Beam-Deflection-Analysis-using-ANSYS
+# Cantilever Beam Deflection Analysis
 
 All three models are built **inside one ANSYS Workbench project** to keep material data, loading and meshing options identical, allowing an apples-to-apples comparison.
 
@@ -82,9 +81,3 @@ Add or rename shots as you like—just keep them inside **/screenshots** so the 
 * **Modal frequencies** drop with added bending-shear DOFs; the 3-D solid gives the lowest and most realistic first bending mode.  
 
 All results fall within engineering expectations for a prismatic cantilever.
-
----
-
-## 7 · License  
-
-MIT — feel free to reuse or adapt for coursework, tutorials or personal study.
